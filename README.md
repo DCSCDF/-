@@ -3,5 +3,5 @@
 
 采用 tailwindcss库美化页面 响应式设计
  
-![1.jpg](1.jpg)
+[![image]([1.jpg](https://github.com/DCSCDF/-/blob/main/1.jpg))](https://github.com/DCSCDF/-/blob/main/1.jpg)
 
