@@ -1,0 +1,158 @@
+.img-1 {
+  background-image: url(./img/1.png)
+}
+
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* 动态为footer添加类fixed-bottom */
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bg {
+  background-color: var(--my-color);
+  width: 100vw;
+  min-height: 100vh;
+  /* background-color: rgb(248 250 252); */
+}
+
+.loaderbg {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999999
+}
+
+::-webkit-scrollbar {
+  width: 7.5px;
+  height: 6px;
+  background-color: #f0f0f0;
+  display: none
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b1b1b1;
+  border-radius: 15px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -30px;
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  font-size: 10px
+}
+
+.spinner>.double {
+  background: #49a9ee;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  -webkit-animation: stretchDelay 1.2s infinite ease-in-out;
+  animation: stretchDelay 1.2s infinite ease-in-out
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s
+}
+
+@-webkit-keyframes stretchDelay {
+
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(.4)
+  }
+
+  20% {
+    -webkit-transform: scaleY(1)
+  }
+}
+
+@keyframes stretchDelay {
+
+  0%,
+  40%,
+  100% {
+    transform: scaleY(.4);
+    -webkit-transform: scaleY(.4)
+  }
+
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1)
+  }
+}
+
+.content-card {
+  /*  box-shadow: 1px 1px 4px rgb(141, 141, 141); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+:root {
+  --my-color: #f1f5f9;
+  --my-color1: rgb(69, 69, 69);
+  --my-color2: rgb(255, 255, 255);
+  --my-color3: rgb(226 232 240);
+  /* or any other variables/style */
+}
+
+[data-theme='dark'] {
+  --my-color: #1e2430;
+  --my-color1: rgb(216, 216, 216);
+  --my-color2: rgb(26, 31, 37);
+  --my-color3: rgb(36, 39, 46);
+}
+
+.qiehuan {
+  color: var(--my-color1);
+}
+
+.qiehuan1 {
+  background-color: var(--my-color2);
+}
+
+.qiehuan2 {
+  background-color: var(--my-color2);
+}
+
+.qiehuan3 {
+  border-color: var(--my-color3);
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jiuliu首页</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!--
+▀██▀─▄███▄─▀██─██▀██▀▀█
+─██─███─███─██─██─██▄█
+─██─▀██▄██▀─▀█▄█▀─██▀█
+▄██▄▄█▀▀▀─────▀──▄██▄▄█
+
+-->
+
+<body class="bg " oncontextmenu='return false' onselectstart='return false' onselect='document.selection.empty()'
+  oncopy='document.selection.empty()' onbeforecopy='return false' onmouseup='document.selection.empty()'>
+  <div class="loaderbg">
+    <div class="spinner">
+      <div class="double rect1"></div>
+      <div class="double rect2"></div>
+      <div class="double rect3"></div>
+      <div class="double rect4"></div>
+      <div class="double rect5"></div>
+    </div>
+  </div>
+
+  <div class="">
+    <div class="navbar bg-base-100 px-10 py-3 shadow-md ">
+      <div class="navbar-start">
+        <div class="dropdown">
+        </div>
+        <a class="btn btn-ghost text-xl" href="./index.html">jiuliutop</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <h2 class="card-title">起始导航页</h2>
+        </ul>
+      </div>
+      <div class="navbar-end pr-2">
+
+        <!--         <label class="swap swap-rotate px-10 e" data-choose-theme>
+          <input type="checkbox" class="theme-controller" />
+          <svg data-set-theme="" data-act-class="ACTIVECLASS" class="swap-off fill-current w-10 h-10"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+          </svg>
+          <svg data-set-theme="dark" data-act-class="ACTIVECLASS" class="swap-on fill-current w-10 h-10"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+          </svg>
+        </label> -->
+        <select class="mx-2 sm:mx-10 select select-bordered w-30" data-choose-theme>
+          <option value="" class="m-3">亮色模式</option>
+          <option value="dark">深色模式</option>
+        </select>
+
+        <a class="btn" href="./aboutme.html"> 关于我 </a>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="pt-4 sm:max-lg:mx-20 md:px-30 grid justify-items-center mt-10 bg-base-100 mx-8 lg:mx-60 shadow-sm rounded-2xl flex">
+    <img class="p-10" src="./img/1.png">
+  </div>
+
+  <div class="sm:flex 2xl:flex-wrap h-50 px-5 pt-10 justify-center mb-20 ">
+    <div
+      class="card lg:card-side border qiehuan3 hover:border-indigo-500/0 hover:shadow-xl hover:duration-300 duration-300 m-5 basis-96 bg-base-100 dark:bg-slate-800">
+      <div class="card-body">
+        <h2 class="card-title">开发笔记</h2>
+        <p>jiuliu的博客.</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">点击跳转</button>
+        </div>
+      </div>
+    </div>
+    <div
+      class=" card lg:card-side border qiehuan3 hover:border-indigo-500/0 hover:shadow-xl hover:duration-300 duration-300 m-5 basis-96 bg-base-100">
+      <div class="card-body">
+        <h2 class="card-title">网站监控</h2>
+        <p>web服务器运行监测.</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">点击跳转</button>
+        </div>
+      </div>
+    </div>
+    <div
+      class=" card lg:card-side border qiehuan3 hover:border-indigo-500/0 hover:shadow-xl hover:duration-300 duration-300 m-5 basis-96 bg-base-100">
+      <div class="card-body">
+        <h2 class="card-title">开发中</h2>
+        <p>开发中.</p>
+        <div class="card-actions justify-end ">
+          <button disabled class="btn btn-primary cursor-not-allowed">点击跳转</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer footer-center qiehuan2 p-4 text-base-content shadow-2xl ">
+    <aside>
+      <p>Copyright © 2024 - All right reserved by jiuliu</p>
+    </aside>
+  </footer>
+
+</body>
+<script type="text/javascript" src="./js/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="./js/style.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+
+</html>
